@@ -1,0 +1,12 @@
+> decrypt encrypted message
+
+>> Translate phonetic alphabet dictionary into it's encrypted code
+>>> make list of alphabet dictionary keys
+>>> for each key translate the value into it's code and add it to temporary dictionary
+
+
+>> match the letters in the encrypted code to the translated dictionary
+>>> for each letter/number pair in code check it against the values in the temporary dictionary
+	if letter/number pair matches, add it's key to decrypted message string
+
+>> print the decrypted message
